@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>연습문제 2</title>
+</head>
+
+<body>
+	<script>
+		var x = parseInt(prompt("비교할 첫 번째 숫자 : "));
+		var y = parseInt(prompt("비교할 두 번째 숫자 : "));
+
+		function comp(){
+			if(x>y){
+				alert(x+"가 "+ y + "보다 큽니다.");
+			}else if(y>x){
+				alert(y+"가 "+ x + "보다 큽니다.");
+			}else{
+				alert(x + "와 " + y + "s는 같습니다.")
+			}
+		};
+
+		comp(x,y);
+
+	</script>
+</body>
+
+</html>
